@@ -68,6 +68,6 @@ int main(){
     for (i = 0; i < n_vetor; i++) {
         printf("%d ",v[i]);
     }
-
+	free(v);
     return 0;
 }
